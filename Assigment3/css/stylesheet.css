@@ -1,0 +1,111 @@
+/********** Base styles **********/
+* {
+  box-sizing: border-box; 
+}
+body{
+    background-color: aliceblue;
+    font-size: 24 px;
+    font-family: 'Roboto', sans-serif;
+}
+header {
+    width: 100%;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+}
+#main-content>h1 {
+    font-size: 250%;
+    font-family: 'Dancing Script', cursive;
+    margin-bottom: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#header-nav .container{
+  width: 100%;
+  margin: 0px;
+  min-height: 70px;
+}
+
+.navbar-brand{
+  margin: 0px;
+  color: palevioletred;
+}
+
+.navbar-brand h1 {
+  margin: 0px;
+  color: palevioletred;
+}
+
+#button1 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#nav-list a:hover {
+  background: palevioletred;
+}
+#collapsable-nav a { /* Collapsed nav menu text */
+  font-size: 2em;
+}
+
+.ibox{
+  border: 1px solid black;
+  background-color: gray;
+  margin: 10px;  
+  font-size: 24px;
+}
+
+.ibox > p{
+  text-align: justify;
+  color: aliceblue;    
+  margin: 50px 10px 10px 10px;
+  height: 100%;
+}
+
+.box {
+    border: 1px solid black;
+    height: 40px;
+    width: 100px;
+    float: right;
+    top: -0.5px;
+    left: 0.9px;    
+    position: relative;
+}
+
+.box > p{
+    text-align: center;
+    color: aliceblue;  
+    height: 100%;
+    margin: 0;
+    padding: 5px;
+    font-size: 20px;
+    font-family: 'Dancing Script', cursive;
+}
+
+#Sushi {
+  background-color: salmon;
+}
+
+#Beef {
+  background-color: maroon;
+}
+
+#Sushi>p {
+  color: black;
+}
+
+#Chicken>p {
+  color: black;
+}
+
+
+#Chicken {
+  background-color: sandybrown;
+}
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+}
+
+
+
+
